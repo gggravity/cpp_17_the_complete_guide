@@ -27,7 +27,8 @@ struct std::tuple_element<Idx, Customer>
 };
 
 // define specific getters:
-template < std::size_t > auto get (const Customer &c);
+template < std::size_t >
+auto get (const Customer &c);
 
 template <>
 auto get<0> (const Customer &c)

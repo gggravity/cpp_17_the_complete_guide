@@ -11,17 +11,32 @@ class Customer
   {
   }
 
-  [[nodiscard]] std::string getFirst () const
+  [[nodiscard]] const std::string &firstname () const
   {
     return first;
   }
 
-  [[nodiscard]] std::string getLast () const
+  std::string &firstname ()
+  {
+    return first;
+  }
+
+  [[nodiscard]] const std::string &lastname () const
   {
     return last;
   }
 
-  [[nodiscard]] long getValue () const
+  std::string &lastname ()
+  {
+    return last;
+  }
+
+  [[nodiscard]] long value () const
+  {
+    return val;
+  }
+
+  long &value ()
   {
     return val;
   }
@@ -30,5 +45,4 @@ class Customer
   std::string first;
   std::string last;
   long val;
-
 };
