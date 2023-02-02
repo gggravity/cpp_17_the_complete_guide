@@ -29,6 +29,11 @@ class Data
     return t;
   }
 
+  virtual ~Data ()
+  {
+    cout << "D destroyed." << endl;
+  }
+
  private:
   string name;
 };
