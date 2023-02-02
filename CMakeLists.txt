@@ -12,6 +12,7 @@ add_executable(aggr14 lang/aggr14.cpp)
 add_executable(factory lang/factory.cpp lang/factory.hpp)
 add_executable(lambdathis lang/lambdathis.cpp)
 add_executable(evalexept lang/evalexept.cpp)
+add_executable(hexfloat lang/hexfloat.cpp)
 
 target_link_libraries(inlinethreadlocal1 ${CMAKE_THREAD_LIBS_INIT})
 
