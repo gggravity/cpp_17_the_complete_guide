@@ -14,6 +14,7 @@ add_executable(lambdathis lang/lambdathis.cpp)
 add_executable(evalexept lang/evalexept.cpp)
 add_executable(hexfloat lang/hexfloat.cpp)
 add_executable(classarglambda tmpl/classarglambda.cpp tmpl/classarglambda.hpp)
+add_executable(ifcomptime tmpl/ifcomptime.cpp tmpl/ifcomptime.hpp)
 
 target_link_libraries(inlinethreadlocal1 ${CMAKE_THREAD_LIBS_INIT})
 
