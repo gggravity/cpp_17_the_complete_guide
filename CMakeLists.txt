@@ -19,6 +19,7 @@ add_executable(ifruntime tmpl/ifruntime.cpp tmpl/ifruntime.hpp)
 add_executable(addspace tmpl/addspace.cpp tmpl/addspace.hpp)
 add_executable(foldcall tmpl/foldcall.cpp)
 add_executable(foldtraverse tmpl/foldtraverse.cpp tmpl/foldtraverse.hpp)
+add_executable(ishomogeneous tmpl/ishomogeneous.cpp)
 
 target_link_libraries(inlinethreadlocal1 ${CMAKE_THREAD_LIBS_INIT})
 
