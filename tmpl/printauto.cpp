@@ -17,7 +17,15 @@ void print (const First &first, const Args &... args)
   cout << '\n';
 }
 
+
 int main ()
 {
   print("Hello", "World,", "der", "var", "en", "gang", "en", "mand!");
+
+  print<','>("Hello", "World", "der", "var", "en", "gang", "en", "mand!");
+
+  print<'-'>("Hello", 123.12, "der", "var", 321, "gang", "en", "mand!");
+
+  static const char sep[] = ", ";
+  print<sep>("Hello", 123.12, "der", "var", 321, "gang", "en", "mand!");
 }
