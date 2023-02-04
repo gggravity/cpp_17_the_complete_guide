@@ -15,7 +15,7 @@ void print_array()
     }
 
   std::cout << "\narray<int, 5u> :   ";
-  
+
   for (const auto & elem: array<int, 5u>)
     {
       std::cout << elem << ' ';
