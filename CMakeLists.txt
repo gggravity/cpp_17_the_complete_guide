@@ -25,6 +25,7 @@ add_executable(vartmplauto tmpl/vartmplauto1.cpp tmpl/vartmplauto2.cpp tmpl/vart
 add_executable(decltypeauto tmpl/decltypeauto.cpp)
 add_executable(overload tmpl/overload.cpp)
 add_executable(using2 tmpl/using2.cpp)
+add_executable(optional1 lib/optional1.cpp)
 
 target_link_libraries(inlinethreadlocal1 ${CMAKE_THREAD_LIBS_INIT})
 
