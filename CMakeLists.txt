@@ -21,6 +21,8 @@ add_executable(foldcall tmpl/foldcall.cpp)
 add_executable(foldtraverse tmpl/foldtraverse.cpp tmpl/foldtraverse.hpp)
 add_executable(ishomogeneous tmpl/ishomogeneous.cpp)
 add_executable(printauto tmpl/printauto.cpp)
+add_executable(vartmplauto tmpl/vartmplauto1.cpp tmpl/vartmplauto2.cpp tmpl/vartmplauto.hpp)
+
 
 target_link_libraries(inlinethreadlocal1 ${CMAKE_THREAD_LIBS_INIT})
 
