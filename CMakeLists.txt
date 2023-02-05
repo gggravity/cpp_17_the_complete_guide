@@ -32,6 +32,7 @@ add_executable(variantvisit lib/variantvisit.cpp)
 add_executable(variantpoly1 lib/variantpoly1.cpp)
 add_executable(variantpoly2 lib/variantpoly2.cpp)
 add_executable(asint lib/asint.cpp)
+add_executable(checkpath1 filesystem/checkpath1.cpp)
 
 target_link_libraries(inlinethreadlocal1 ${CMAKE_THREAD_LIBS_INIT})
 
