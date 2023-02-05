@@ -28,6 +28,7 @@ add_executable(using2 tmpl/using2.cpp)
 add_executable(optional1 lib/optional1.cpp)
 add_executable(optionalmember lib/optionalmember.cpp)
 add_executable(variant lib/variant.cpp)
+add_executable(variantvisit lib/variantvisit.cpp)
 
 target_link_libraries(inlinethreadlocal1 ${CMAKE_THREAD_LIBS_INIT})
 
