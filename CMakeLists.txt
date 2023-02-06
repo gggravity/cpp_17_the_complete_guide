@@ -40,7 +40,9 @@ add_executable(permAsString filesystem/permAsString.cpp)
 add_executable(parforeach lib/parforeach.cpp)
 add_executable(parforeachloop lib/parforeachloop.cpp)
 add_executable(accumulate lib/accumulate.cpp)
+add_executable(parreduce lib/parreduce.cpp)
 
 target_link_libraries(inlinethreadlocal1 ${CMAKE_THREAD_LIBS_INIT})
 target_link_libraries(parforeachloop tbb)
+target_link_libraries(parreduce tbb)
 
