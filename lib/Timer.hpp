@@ -21,7 +21,7 @@ class Timer
   {
     auto now { chrono::steady_clock::now() };
     chrono::duration<double, milli> diff { now - last };
-    cout << msg << diff.count() << "ms\n";
+    cout << msg << diff.count() << " ms\n";
     last = chrono::steady_clock::now();
   }
 
