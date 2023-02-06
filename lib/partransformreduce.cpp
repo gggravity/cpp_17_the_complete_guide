@@ -23,15 +23,13 @@ void print_sum (long num)
       return val * val;
   };
 
-  auto sum {
-      transform_reduce(
-          execution::par,
-          coll.begin(),
-          coll.end(),
-          0L,
-          plus { },
-          sum_val)
-  };
+  auto sum { transform_reduce(
+      execution::par,
+      coll.begin(),
+      coll.end(),
+      0L,
+      plus { },
+      sum_val) };
 
   cout << "reduce(): " << sum << '\n';
 }
