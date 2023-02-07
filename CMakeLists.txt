@@ -48,6 +48,7 @@ add_executable(partransformreduce lib/partransformreduce.cpp)
 add_executable(dirsize lib/dirsize.cpp)
 
 target_link_libraries(inlinethreadlocal1 ${CMAKE_THREAD_LIBS_INIT})
+target_link_libraries(parforeach tbb)
 target_link_libraries(parforeachloop tbb)
 target_link_libraries(parreduce tbb)
 target_link_libraries(parreducefloat tbb)
