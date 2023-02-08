@@ -50,6 +50,7 @@ add_executable(foreachn lib/foreachn.cpp)
 add_executable(reduce lib/reduce.cpp)
 add_executable(transformreduce1 lib/transformreduce1.cpp)
 add_executable(transformreduce2 lib/transformreduce2.cpp)
+add_executable(scan lib/scan.cpp)
 
 target_link_libraries(inlinethreadlocal1 ${CMAKE_THREAD_LIBS_INIT})
 target_link_libraries(parforeach tbb)
