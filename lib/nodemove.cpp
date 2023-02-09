@@ -53,6 +53,6 @@ int main ()
       cout << "insert() of node handle failed:"
            << " tried to insert '" << node.key()
            << "' with value '" << node.mapped()
-           << "' bu key exists with value '" << pos->second << "'\n";
+           << "' but key exists with value '" << pos->second << "'\n";
     }
 }
