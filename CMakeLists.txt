@@ -59,6 +59,7 @@ add_executable(sample1 lib/sample1.cpp)
 add_executable(sample2 lib/sample2.cpp)
 add_executable(nodehandle lib/nodehandle.cpp)
 add_executable(nodemove lib/nodemove.cpp)
+add_executable(nodemerge lib/nodemerge.cpp)
 
 target_link_libraries(inlinethreadlocal1 ${CMAKE_THREAD_LIBS_INIT})
 target_link_libraries(parforeach tbb)
