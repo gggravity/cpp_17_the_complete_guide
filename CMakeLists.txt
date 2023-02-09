@@ -53,6 +53,7 @@ add_executable(transformreduce2 lib/transformreduce2.cpp)
 add_executable(scan lib/scan.cpp)
 add_executable(transformscan lib/transformscan.cpp)
 add_executable(last5 lib/last5.cpp)
+add_executable(data lib/data.cpp)
 
 target_link_libraries(inlinethreadlocal1 ${CMAKE_THREAD_LIBS_INIT})
 target_link_libraries(parforeach tbb)
