@@ -14,6 +14,7 @@ int main ()
     {
       collection.push_back("value" + to_string(i));
     }
+
   sample(collection.begin(), collection.end(),
          ostream_iterator<string> { cout, "\n" },
          10,
