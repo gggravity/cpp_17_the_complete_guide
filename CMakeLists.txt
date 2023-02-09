@@ -57,6 +57,7 @@ add_executable(data lib/data.cpp)
 add_executable(clamp lib/clamp.cpp)
 add_executable(sample1 lib/sample1.cpp)
 add_executable(sample2 lib/sample2.cpp)
+add_executable(nodehandle lib/nodehandle.cpp)
 
 target_link_libraries(inlinethreadlocal1 ${CMAKE_THREAD_LIBS_INIT})
 target_link_libraries(parforeach tbb)
