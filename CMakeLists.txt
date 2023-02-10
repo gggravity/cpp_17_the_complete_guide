@@ -61,6 +61,7 @@ add_executable(nodehandle lib/nodehandle.cpp)
 add_executable(nodemove lib/nodemove.cpp)
 add_executable(nodemerge lib/nodemerge.cpp)
 add_executable(incomplete lib/incomplete.cpp)
+add_executable(ic lib/ic.cpp)
 
 target_link_libraries(inlinethreadlocal1 ${CMAKE_THREAD_LIBS_INIT})
 target_link_libraries(parforeach tbb)
