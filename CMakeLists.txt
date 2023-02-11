@@ -67,6 +67,8 @@ add_executable(pmr0 lib/pmr0.cpp)
 add_executable(pmr1 lib/pmr1.cpp)
 add_executable(pmr2 lib/pmr2.cpp)
 add_executable(pmr3 lib/pmr3.cpp)
+add_executable(pmrsync0 lib/pmrsync0.cpp)
+add_executable(pmrsync1 lib/pmrsync1.cpp)
 
 target_link_libraries(inlinethreadlocal1 ${CMAKE_THREAD_LIBS_INIT})
 target_link_libraries(parforeach tbb)
