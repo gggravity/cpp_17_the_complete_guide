@@ -72,6 +72,8 @@ add_executable(pmrsync1 pmr/pmrsync1.cpp)
 add_executable(pmrnull pmr/pmrnull.cpp)
 add_executable(tracker pmr/tracker.cpp)
 add_executable(pmrcustomer1 pmr/pmrcustomer1.cpp)
+add_executable(alignednew11 lang/alignednew11.cpp)
+add_executable(alignednew17 lang/alignednew17.cpp)
 
 target_link_libraries(inlinethreadlocal1 ${CMAKE_THREAD_LIBS_INIT})
 target_link_libraries(parforeach tbb)
