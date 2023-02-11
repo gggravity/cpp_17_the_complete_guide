@@ -75,6 +75,7 @@ add_executable(pmrcustomer1 pmr/pmrcustomer1.cpp)
 add_executable(alignednew11 lang/alignednew11.cpp)
 add_executable(alignednew17 lang/alignednew17.cpp)
 add_executable(alignednewincomp lang/alignednewincomp.cpp)
+add_executable(tracknew lang/tracknew.cpp)
 
 target_link_libraries(inlinethreadlocal1 ${CMAKE_THREAD_LIBS_INIT})
 target_link_libraries(parforeach tbb)
